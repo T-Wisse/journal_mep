@@ -57,7 +57,7 @@ Nanodrop measurement of gDNA yLL117a:
 
 ## Conclusion
 - Based on the nanodrop measurement and gel, the DNA extraction of yLL117a was succesful.  See @fig:gel_PCR `reference to the figure`
-- A 260/280 of 1.88 suggests the DNA is not pure (~1.8 is pure DNA), but also contains RNAs (2.0 is pure RNA). 260/230 of 1.16 (OR 2.16??) would also indicate contamination (2.0-2.2 expected for pure Nucleic acids)
+- A 260/280 of 1.88 suggests the DNA is not pure (~1.8 is pure DNA), but also contains RNAs (2.0 is pure RNA). 260/230 of 1.16 would also indicate contamination (2.0-2.2 expected for pure Nucleic acids)
 - The gel shows PCR product for both yLL3a and yLL117a as expected and for all annealing temperatures.
 -  yLL3a contains BEM1 and with primers OLIC54 and 55 should have a length of 2.7kb. yLL117a contains a construct in place of BEM1 and and with primers OLIC54 and 55 should have a length of 2.5 kb. 
 -  These expected lengths correspond with observed lengths. This suggests we have sucessfully obtained PCR product of a BEM1delete construct from yLL117a.

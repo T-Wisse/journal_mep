@@ -29,9 +29,8 @@ colorlinks: true
 
 ## Date
 04-03-2021
+
 ## Method
-
-
 
 - Final Volume: 200 ml liquid YPD 
 
