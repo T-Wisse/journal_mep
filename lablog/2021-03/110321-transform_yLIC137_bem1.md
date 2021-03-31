@@ -184,21 +184,33 @@ Colonies taken:
     - Q5 DNA polymerase and Phusion DNA polymerase
     - Primers OLIC 56 and 57
 
-![Southern blot of PCR product using OLIC 56 and 57. Expected length of construct is 3.1kb. Expected length of BEM1 (negative) is 3.3kb. Colonies 9 12 and 16 show a band slightly larger than 3kb at varying concentrations. Exact length can not be determined. These colonies were noted as medium, large and large respectively.](../Images/210318-colonyPCR_yLIC137_bem1dConstruct_annotated.png){#fig:gel_PCR2}
+![Southern blot of PCR product using OLIC 56 and 57. Expected length of construct is 3.1kb. Expected length of BEM1 (negative) is 3.3kb. Colonies 9 12 and 16 show a band slightly larger than 3kb at varying concentrations. Exact length can not be determined. These colonies were noted as medium, large and large respectively.](../images/210318-colonyPCR_yLIC137_bem1dConstruct_annotated.png){#fig:gel_PCR2}
 
-
+- [ ] you miss the picture in the images folder
 - Again the restreaked cells show no colonies 
 - A positive control of yLL118_A also showed no colonies on anitbiotic plate after 3 days incubation at 30C.
 
-### Restreaking 18 colonies on YPD+ade plates
+
+### Restreaking 18 single colonies from the transformation plate on YPD+ade plates
 Check for growth without antibiotics. Colonies that grow will be suspended and grown in liquid media with G418 and clonNAT. 
 
-### PCR 3 and 4(to do)
-Using new primers inside the construct (KanMx gene): kanmx-out-upstream and KanMx-out-downstream. 
-Primer combiations: 
-1: OLIC56 & KanMx-out-upstream (1323 bp). 
-2: KanMx-out-downstream & OLIC 57 (1767 bp)
+- Results?
 
+
+### PCR to check the edges of the insertion
+
+- [ ] make a small drwaing / sketch of the PCR , maybe a snapgene picture can work
+- Using new primers inside the construct (KanMx gene):  
+- kanmx-out-upstream and KanMx-out-downstream. 
+    Primer combinations: 
+    1: OLIC56 & KanMx-out-upstream (1323 bp). 
+    2: KanMx-out-downstream & OLIC 57 (1767 bp)
+
+- Results
+
+#### Optimizing the PCR 
+
+- temperature gradient PCR
 
 ## Conclusion
 
