@@ -33,9 +33,11 @@ colorlinks: true
 ## Objective
 - Obtain cells with bem1d in the yLIC137(bem3::NAT ade2- ura3-) background by introducing a PCR product containing the KanMX cassette on the bem1 loci. 
 
-## Method
+## Methods & Results 
 
+### Overview methods
 - PCR an existing bem1::KanmX cassette from a different strain and transform it into ylic137.
+- Check succes of transformation with PCR and southern blot
 - Protocols:
     - gDNA extraction
     - PCR 
@@ -140,31 +142,35 @@ Added after autoclaving:
 - Controls (to do):
     -  Check for non pink colonies from yLIC133 (WT) long 30C incubation. 
 
-## Results
+#### Transformation results
 
-- A1 and B1 both show growth. A1 shows a region where colony density is low. Probably a result of higher local antibiotic concentrations. Positive control plate (plated on plain YPD) shows growth. Negative control plate (A2) shows some growth at the edges. Probably where concentration of antibiotic was very low. 
+- Selection plates A1 and B1 both show growth. A1 shows a region where colony density is low. Probably a result of higher local antibiotic concentrations. Positive control plate (plated on plain YPD) shows growth. Negative control plate (A2) shows some growth at the edges. Probably where concentration of antibiotic was very low. 
 
-![Plates of yLIC137 transformed with bem1d construct. A1 and B1 are replicates. A1 positives control: A1 on YPD + ade. A2 negative control: ](../Images/210315_yLIC137_all.png){#fig:plates}
+![Plates of yLIC137 transformed with bem1d construct. A1 and B1 are replicates. A1 positive control: A1 on YPD + ade. A2 negative control](../Images/210315_yLIC137_all.png){#fig:selectionPlates}
 
-### Colony PCR #1
+### Colony PCR (#1)
 - New selection plates: Adding 50uL G418 and 30uL clonNAT. Spread with glass beads and allowed to dry.
 - Selected 7 individual colonies from A1 plate and 1 from B1 plate (marked). Scraped and suspended in 50uL milliQ. Restreaked on newly made selection plates by stirring tip in epi.
+- Selection plates A1, B1 (from which colonies were picked) are stored at 4C with parafilm for later use.
 
 #### PCR protocol:
-- Protocol
-    - T=65 annealing temperature
-    - 1 min in 98C 
-    - 5 uL of cell suspension as template
-- Performed PCR for all 8 samples using 5uL of suspended cells as template and primers OLIC54 & 55: loaded 10uL per lane. Ran gel at 120V for 30 min.
+- T=65 annealing temperature
+- 1 min in 98C 
+- 5 uL of cell suspension as template
+- primers OLIC54 & 55
 
-- A1, B1 (from which colonies were picked) are stored at 4C with parafilm for later use.
-
-- DNA gel shows DNA bands at 2.5kb and 2.0kb for each colony, at varying concentrations. several bands around 200bp are also observed.
+#### Southern blot
+- Loaded 10uL per lane. Ran gel at 120V for 30 min.
+- DNA bands at 2.5kb and 2.0kb for each colony, at varying concentrations. several bands around 200bp are also observed.
+- To confirm correct location of insertion, we need to use other primers which are oustide of the primers used for the transformation.
+(ADD IMAGE OF PRIMERS FROM SNAPGENE)
 
 ![ DNA gel of PCR of colonies transformed with bem1d construct. Using primers OLIC54 and OLIC55 (flanking BEM1). DNA is present in all lanes with differing concentrations. The full construct is 2507 bp. All lanes show band at length of ~2.5kb. Additionally a band at 2kb is visible, as well as several short bands around 200bp. ](../Images/210315-colonyPCR_yLIC137_bem1dConstruct_annotated.png){#fig:gel_PCR1}
 
-- All the restreaked cells combined show only 2 colonies in total after 3 days of growth.
+#### Re-streak results
+- All the restreaked cells (from Colony PCR #1) combined show only 2 colonies in total after 3 days of growth.
     - It seems there were very few living cells with the construct on the pipette tip or almost none. 
+- We therefore need to redo the colony PCR with new colonies.
 
 ### Colony PCR #2
 
@@ -175,7 +181,7 @@ Colonies taken:
 
 - Cells were resuspended in 50uL milliQ. 40 uL of cell suspension pipetted on antibiotic plates and incubated at 30C for multiple (4) days.
 
-#### PCR protocol:
+#### PCR protocol
 
 - Protocol
     - T=60 annealing temperature
@@ -184,33 +190,172 @@ Colonies taken:
     - Q5 DNA polymerase and Phusion DNA polymerase
     - Primers OLIC 56 and 57
 
+#### Southern blot
+
 ![Southern blot of PCR product using OLIC 56 and 57. Expected length of construct is 3.1kb. Expected length of BEM1 (negative) is 3.3kb. Colonies 9 12 and 16 show a band slightly larger than 3kb at varying concentrations. Exact length can not be determined. These colonies were noted as medium, large and large respectively.](../images/210318-colonyPCR_yLIC137_bem1dConstruct_annotated.png){#fig:gel_PCR2}
 
-- [ ] you miss the picture in the images folder
+- Primers OLIC 56 and 57 do not allow for proper determination of success as positive and negative band lengths are very similar. 
+- We will do a PCR with new primers which can conclusively determine sucess of the transformation.
+
+#### Re-streak results
 - Again the restreaked cells show no colonies 
-- A positive control of yLL118_A also showed no colonies on anitbiotic plate after 3 days incubation at 30C.
+- A positive control of yLL118_A also showed no colonies on antibiotic plate after 3 days incubation at 30C.
+- As re-streaks repeatedly fail, we will attempt a new re-streak with more colonies and initially without antibiotics
 
+### Re-streaking 18 colonies 
+- 18 single colonies from the transformation plate on YPD+ade plates
+- Incubated at 30C.
+- Check for growth without antibiotics. Colonies that grow will be suspended and grown in liquid media with G418 and clonNAT. 
 
-### Restreaking 18 single colonies from the transformation plate on YPD+ade plates
-Check for growth without antibiotics. Colonies that grow will be suspended and grown in liquid media with G418 and clonNAT. 
+#### Results
+- 15/18 Restreaked colonies showed growth on YDP + ade plate. 
+- A colony of each of the 15 plates was suspended and incubated in 5 ml liquid YPD + ade media with G418 and clonNAT. 
+- After 2 days of incubation, no cells were visible in any tube. After 3 more days this was still true.
+- We will attempt to re-streak many colonies rather than single colonies
 
-- Results?
+### Re-streaking (serial dilution in plate)
+- Restreaking a large number of cells from many colonies. Increasingly fewer cells streaked in 4 quadrants
+- Two YPD + ade plates. One with G418 and clonnat, one without.
+- Incubated at 30C.
 
+#### Results
+- Both plates showed growth, with less on the antibiotics plate.
+
+![Restreaked and incubated cells from A1. A) Plate with antibodies G418 and clonnat. B) Plate without antibodies. Both plates shows growth, with more on the plate without antibodies](../Images/210326_yLIC137_with_and_without_antibodies){#fig:plates2}
+
+### Suspension of re-streaked cells of plate with antibodies
+- Four colonies were selected from the antibiotic plate
+- Cells suspended in 10ml liquid media (YPD + ade + G418 + clonnat) 
+- Incubated at 30C.
+
+#### Results
+- Cultures of colonies 1-3 were dense after incubation.
+- Culture of colony 4 and negative control showed no growth
+- 1ml of cultures of colonies 1-3 were added to 500uL 80% glycerol and stored at -80 (strains yTW001A-C, respectively). 
+
+### Genome extraction of yTW001 A, B and C
+- Genomic extraction performed with kit (name)
+- Pellet of 8ml dense culture used per strain variant 
+- 30uL elution used.
+- Insufficient proteinase K: samples 1-1 through 3-2 with proteinase K (+), samples 4-2 through 4-3 without (-). 
+
+#### Results
+- Nanodrop measurements of DNA concentrations:
+
+| Sample | Concentration (ng/ul) | 260/280 | 260/230 |
+|-|-|-|-|
+| A | 53.4 | 1.94 | 2.17 |
+| B (+) | 77.2 | 1.94 | 1.11 |
+| B (-) | 44.9 | 1.94 | 1.99 |
+| C | 63.6 | 1.96 | 1.44 |
 
 ### PCR to check the edges of the insertion
 
-- [ ] make a small drwaing / sketch of the PCR , maybe a snapgene picture can work
 - Using new primers inside the construct (KanMx gene):  
-- kanmx-out-upstream and KanMx-out-downstream. 
-    Primer combinations: 
-    1: OLIC56 & KanMx-out-upstream (1323 bp). 
-    2: KanMx-out-downstream & OLIC 57 (1767 bp)
+- kanmx-out-upstream (OLIC59) and KanMx-out-downstream (OLIC58). 
+![Snapgene representation of primers OLIC 58 and 59 as well as others in and around the construct.](../images/primersConstructBEM1.png){fig:snapgeneConstruct}
 
-- Results
+#### PCR protocol:
+Primer pairs: 
+1: OLIC56 & OLIC59 (positve: 1323 bp) 
+2: OLIC57 & OLIC58 (positve: 1767 bp)
+3: OLIC56 & OLIC57 (positive: 3.1kb, negative: 3.3kb)
+
+- 10uL loaded
+- Annealing temperature: 60C
+- 30s in 98C 
+- All combinations of gDNA samples and primer pairs.
+- WT3a gDNA with primer set 3 as a control
+
+#### Results
+
+![Primers OLIC56 & 59 show a large number of bands. Some possibly of the correct length. Primers OLIC57 & 58 only show a clear band for very short lengths, possible the primers?. Primers OLIC56 & 57 shown a clear band at the expected lengths, both for yTW001 and for the negative control.](../images/210330-PCR_yTW001ABC_annotated.png)
+
+- The construct appears to have been sucessfully integrated.
+- The primers inside KanMX do not seem to work properly for this temperature. We will attempt to redo the PCR with a temperature gradient.
 
 #### Optimizing the PCR 
+- PCR repeated for primer pairs 1 and 2. gDNA of strain yTW001A
+- temperature gradient PCR: 55C to 65C
 
-- temperature gradient PCR
+#### Results
+![Both primer pairs show multiple bands. Possible correct bands are shown, mostly for lower temperatures ](../images/2021-03-31_PCR_partlyAnnotated.png)
+
+
+### PCR to check the edges of the construct with new primers
+- Primers oLL29 and oLL30, previously reported to work well
+- Primers OLIC60 and OLIC61, made according to blastn primers suggestion
+
+#### protocol
+Primer pairs: 
+1: OLIC56 & OLIC60 (positive: 1629 bp) 
+2: OLIC57 & OLIC61 (positive: 1506 bp)
+3: oLL29 & OLIC57 (positive: 1536 bp)
+4: oLL30 & OLIC56 (positive: 1643 bp)
+
+- templates: gDNA of TW001A, B, C and yLL3a for negative control
+- Annealing temperature: 60C
+- 30s in 98C 
+- All combinations of gDNA samples and primer pairs.
+- yLL3a (erroneously noted as WT3a) gDNA with primer set 3 as a control
+
+
+---13/04---
+### PCR To check the edges and entire construct again & prepare for sequencing the construct
+- oLL29 and oLL30 seem promising
+- Obtain 400uL of PCR product of the construct to ensure we can get a sufficiently high concentration of DNA for sequencing
+- Add positive and negative controls (yLL117, yLL3a)
+
+#### PCR protocol
+Primer pairs: 
+1: oLL29 & OLIC57 (positive: 1536 bp)
+2: oLL30 & OLIC56 (positive: 1643 bp)
+3: OLIC56 & OLIC57 (positive: 3.1kb, negative: 3.3kb)
+
+#### Results
+
+![Biological replicates A B and C for primers oLL29 & OLIC57 (downstream edge) all show a clear band at 1.5kb, which is the expected length. The same is true for the positive control, while the negative control shows no bands, as expected. A slightly larger can also be observed, the origin of which is unclear. For primers oLL30 & OLIC56 (upstream edge) the biological replicates and the positive control show a single band at or slightly larger than 1kb. This is not the expected length of 1.5kb. The negative control shows no band as expected. Finally, for primers OLIC56 & OLIC57 (entire construct) the biological replices, (with the possible exception of A) show a band at 3.1kb as expected. The negatve control shows a slightly larger band, around 3.3kb as expected ](../images/210413_PCR_yTW001ABC_annotated.png)
+
+ - Expect for oLL30 & OLIC56, The PCR products all show the expected length
+ - Almost no other bands are present
+ - This indicates the transformation has worked. 
+ - To confirm this, we will send the PCR product of OLIC56 & OLIC57 for sequencing. 
+ - To do so we first need to increase the DNA concentration.
+
+### DNA purification of PCR product of OLIC56 & OLIC57
+- Using monarch kit to purify DNA for sequencing
+
+#### DNA purification protocol
+- 10uL elution used (heated to 50C)
+- 4 times a volume of 95uL per biological replicate (A,B,C)
+- Using Buffer 2 : 1 DNA sample. So 190uL buffer per epi
+
+#### Results
+| Sample | Concentration (ng/ul) | 260/280 | 260/230 |
+|-|-|-|-|
+| A | 218.5 | 1.90 | 2.28 |
+| B | 168.0 | 1.88 | 2.24 |
+| C | 199.9 | 1.88 | 2.37 |
+
+### Sending purified DNA of PCR product of OLIC56 & OLIC57 for sequencing
+- 250 ng DNA must be prepared per tube
+- one primer must be added per tube
+
+#### Protocol
+| - | A | B | C |
+|-|-|-|-|
+| 250ng DNA | 1.14 uL | 1.49 uL | 1.25 uL |
+| Primer (10uM) | 2.5 uL  | 2.5 uL | 2.5 uL |
+| MilliQ | 6.36 uL | 6.01 uL | 6.25 uL |
+
+| Primer | A | B | C |
+|-|-|-|-|
+| OLIC56 | 1FEAZAA192 | 1FEAZAA188 | 1FEAZAA190 |
+| OLIC57 | 1FEAZAA189  | 1FEAZAA187 | 1FEAZAA191 |
+
+
+#### Results (pending)
+
 
 ## Conclusion
 
