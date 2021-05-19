@@ -65,6 +65,6 @@ put 30uL (?) in the PCR tubes -> in the PCR machine
 All lanes show bands
 - Put an image of your gel
   
-  `![](relative-path-to-the-image)`
+  ![caption](../images/210226_annotated.png)
   
 ## Conclusions

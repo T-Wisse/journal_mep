@@ -53,7 +53,7 @@ colorlinks: true
 | 300 ml         | MiliQ         |
 | 8 g            | agar         |
 
-    - Add by filter stilirization the rest of the components
+    - Add by filter stirilization the rest of the components
 
 | Amount         | Type          |
 |----------------|---------------|
@@ -146,7 +146,7 @@ Added after autoclaving:
 
 - Selection plates A1 and B1 both show growth. A1 shows a region where colony density is low. Probably a result of higher local antibiotic concentrations. Positive control plate (plated on plain YPD) shows growth. Negative control plate (A2) shows some growth at the edges. Probably where concentration of antibiotic was very low. 
 
-![Plates of yLIC137 transformed with bem1d construct. A1 and B1 are replicates. A1 positive control: A1 on YPD + ade. A2 negative control](../Images/210315_yLIC137_all.png){#fig:selectionPlates}
+![Plates of yLIC137 transformed with bem1d construct. A1 and B1 are replicates. A1 positive control: A1 on YPD + ade. A2 negative control](../Images/210315_yLIC137_transform_all_plates.png){#fig:selectionPlates}
 
 ### Colony PCR (#1)
 - New selection plates: Adding 50uL G418 and 30uL clonNAT. Spread with glass beads and allowed to dry.
@@ -163,9 +163,11 @@ Added after autoclaving:
 - Loaded 10uL per lane. Ran gel at 120V for 30 min.
 - DNA bands at 2.5kb and 2.0kb for each colony, at varying concentrations. several bands around 200bp are also observed.
 - To confirm correct location of insertion, we need to use other primers which are oustide of the primers used for the transformation.
-(ADD IMAGE OF PRIMERS FROM SNAPGENE)
 
-![ DNA gel of PCR of colonies transformed with bem1d construct. Using primers OLIC54 and OLIC55 (flanking BEM1). DNA is present in all lanes with differing concentrations. The full construct is 2507 bp. All lanes show band at length of ~2.5kb. Additionally a band at 2kb is visible, as well as several short bands around 200bp. ](../Images/210315-colonyPCR_yLIC137_bem1dConstruct_annotated.png){#fig:gel_PCR1}
+![Snapgene representation of primers OLIC 54 and 55 as well as others in and around the construct.](../images/primersConstructBEM1.png){#fig:snapgeneConstruct}
+
+
+![DNA gel of PCR of colonies transformed with bem1d construct. Using primers OLIC54 and OLIC55 (flanking BEM1). DNA is present in all lanes with differing concentrations. The full construct is 2507 bp. All lanes show a band at ~2.5kb. Additionally a band at 2kb is visible, as well as several short bands around 200bp. ](../images/210315-colonyPCR_yLIC137_p54_55_annotated.png){#fig:gel_PCR1}
 
 #### Re-streak results
 - All the restreaked cells (from Colony PCR #1) combined show only 2 colonies in total after 3 days of growth.
@@ -175,11 +177,13 @@ Added after autoclaving:
 ### Colony PCR #2
 
 Colonies taken:
-- small(2)
-- medium(4)
-- large (2)
+- Small(2)
+- Medium(4)
+- Large (2)
 
-- Cells were resuspended in 50uL milliQ. 40 uL of cell suspension pipetted on antibiotic plates and incubated at 30C for multiple (4) days.
+- Cells were resuspended in 50uL milliQ. 
+- 40 uL of cell suspension pipetted on antibiotic plates
+- Incubated at 30C for multiple (4) days.
 
 #### PCR protocol
 
@@ -220,7 +224,7 @@ Colonies taken:
 #### Results
 - Both plates showed growth, with less on the antibiotics plate.
 
-![Restreaked and incubated cells from A1. A) Plate with antibodies G418 and clonnat. B) Plate without antibodies. Both plates shows growth, with more on the plate without antibodies](../Images/210326_yLIC137_with_and_without_antibodies){#fig:plates2}
+![Restreaked and incubated cells from A1. A) Plate with antibodies G418 and clonnat. B) Plate without antibodies. Both plates shows growth, with more on the plate without antibodies](../images/210326_yLIC137_with_and_without_antibiotics.png){#fig:plates2}
 
 ### Suspension of re-streaked cells of plate with antibodies
 - Four colonies were selected from the antibiotic plate
@@ -252,9 +256,10 @@ Colonies taken:
 
 - Using new primers inside the construct (KanMx gene):  
 - kanmx-out-upstream (OLIC59) and KanMx-out-downstream (OLIC58). 
-![Snapgene representation of primers OLIC 58 and 59 as well as others in and around the construct.](../images/primersConstructBEM1.png){fig:snapgeneConstruct}
+- See @fig:snapgeneConstruct for the location of OLIC58 and 59
 
 #### PCR protocol:
+
 Primer pairs: 
 1: OLIC56 & OLIC59 (positve: 1323 bp) 
 2: OLIC57 & OLIC58 (positve: 1767 bp)
@@ -268,8 +273,9 @@ Primer pairs:
 
 #### Results
 
-![Primers OLIC56 & 59 show a large number of bands. Some possibly of the correct length. Primers OLIC57 & 58 only show a clear band for very short lengths, possible the primers?. Primers OLIC56 & 57 shown a clear band at the expected lengths, both for yTW001 and for the negative control.](../images/210330-PCR_yTW001ABC_annotated.png)
+![Primers OLIC56 & 59 show a large number of bands. Some possibly of the correct length. Primers OLIC57 & 58 only show a clear band for very short lengths, possible the primers?. Primers OLIC56 & 57 shown a clear band at the expected lengths, both for yTW001 and for the negative control.](../images/210330-PCR_yTW001ABC_annotated.png){#fig:210330_PCR}
 
+- Gel of PCR products: Figure @fig:210330_PCR 
 - The construct appears to have been sucessfully integrated.
 - The primers inside KanMX do not seem to work properly for this temperature. We will attempt to redo the PCR with a temperature gradient.
 
@@ -278,12 +284,13 @@ Primer pairs:
 - temperature gradient PCR: 55C to 65C
 
 #### Results
-![Both primer pairs show multiple bands. Possible correct bands are shown, mostly for lower temperatures ](../images/2021-03-31_PCR_partlyAnnotated.png)
+![Both primer pairs show multiple bands. Possible correct bands are shown, mostly for lower temperatures.](../images/2021-03-31_PCR_partlyAnnotated.png)
 
 
 ### PCR to check the edges of the construct with new primers
 - Primers oLL29 and oLL30, previously reported to work well
 - Primers OLIC60 and OLIC61, made according to blastn primers suggestion
+- See @fig:snapgeneConstruct for the location of primers oLL 29,30 and OLIC60, 61
 
 #### protocol
 Primer pairs: 
@@ -299,9 +306,12 @@ Primer pairs:
 - yLL3a (erroneously noted as WT3a) gDNA with primer set 3 as a control
 
 
----13/04---
+#### Results
+![oLL29 shows a single clear band at the expected location for yTW001A. Some vague unexpected bands for the other lanes. oLL30 shows a clear band for A, B and C at an unexpected length (SMILEYS, may actually correct length). OLIC60 shows a unexpected band for each lane. OLIC61 shows multiple bands at unexpected lengths and a possible vague band at expected length](../images/210407_PCR_p_29_30_60_61_Annotated.png)
+
+- oLL29 and oLL30 seem promising, will repeat PCR for these primers
+
 ### PCR To check the edges and entire construct again & prepare for sequencing the construct
-- oLL29 and oLL30 seem promising
 - Obtain 400uL of PCR product of the construct to ensure we can get a sufficiently high concentration of DNA for sequencing
 - Add positive and negative controls (yLL117, yLL3a)
 
@@ -313,9 +323,9 @@ Primer pairs:
 
 #### Results
 
-![Biological replicates A B and C for primers oLL29 & OLIC57 (downstream edge) all show a clear band at 1.5kb, which is the expected length. The same is true for the positive control, while the negative control shows no bands, as expected. A slightly larger can also be observed, the origin of which is unclear. For primers oLL30 & OLIC56 (upstream edge) the biological replicates and the positive control show a single band at or slightly larger than 1kb. This is not the expected length of 1.5kb. The negative control shows no band as expected. Finally, for primers OLIC56 & OLIC57 (entire construct) the biological replices, (with the possible exception of A) show a band at 3.1kb as expected. The negatve control shows a slightly larger band, around 3.3kb as expected ](../images/210413_PCR_yTW001ABC_annotated.png)
+![Biological replicates A B and C for primers oLL29 & OLIC57 (downstream edge) all show a clear band at 1.5kb, which is the expected length. The same is true for the positive control, while the negative control shows no bands, as expected. A slightly larger can also be observed, the origin of which is unclear. For primers oLL30 & OLIC56 (upstream edge) the biological replicates and the positive control show a single band at or slightly larger than 1kb. This is not the expected length of 1.5kb. The negative control shows no band as expected. Finally, for primers OLIC56 & OLIC57 (entire construct) the biological replices, (with the possible exception of A) show a band at 3.1kb as expected. The negatve control shows a slightly larger band, around 3.3kb as expected ](../images/210413_PCR_yTW001ABC_annotated.png){#fig:PCR_final}
 
- - Expect for oLL30 & OLIC56, The PCR products all show the expected length
+ - Except for oLL30 & OLIC56, The PCR products all show the expected length
  - Almost no other bands are present
  - This indicates the transformation has worked. 
  - To confirm this, we will send the PCR product of OLIC56 & OLIC57 for sequencing. 
@@ -337,8 +347,8 @@ Primer pairs:
 | C | 199.9 | 1.88 | 2.37 |
 
 ### Sending purified DNA of PCR product of OLIC56 & OLIC57 for sequencing
-- 250 ng DNA must be prepared per tube
-- one primer must be added per tube
+- 250 ng DNA per tube
+- one primer (OLIC56, OLIC57) added per tube
 
 #### Protocol
 | - | A | B | C |
@@ -353,17 +363,68 @@ Primer pairs:
 | OLIC57 | 1FEAZAA189  | 1FEAZAA187 | 1FEAZAA191 |
 
 
-#### Results (pending)
+#### Results
+![Biological replicates A B and C for primers OLIC56 & OLIC57 (downstream edge) all show .... ](../images/210419_sequencingResult.png)
+
+### Repeat sending purified DNA of PCR product of OLIC56 & OLIC57 for sequencing using different primers
+- 250 ng DNA per tube
+- one primer (oLL29, oLL30) added per tube
+
+#### Protocol
+| - | A | B | C |
+|-|-|-|-|
+| 250ng DNA | 1.14 uL | 1.49 uL | 1.25 uL |
+| Primer (10uM) | 2.5 uL  | 2.5 uL | 2.5 uL |
+| MilliQ | 6.36 uL | 6.01 uL | 6.25 uL |
+
+| Primer | A | B | C |
+|-|-|-|-|
+| oLL29 | 1FEAZAA186 | 1FEAZAA184 | 1FEAZAA182 |
+| oLL30 | 1FEAZAA185  | 1FEAZAA183 | 1FEAZAA181 |
+
+#### Results
+
+![Biological replicates A B and C with primers oLL29 and oLL30. Alignments of the sequencing data show the resulting sequences both go upstream. This clashes with previous observation of PCR product. Furthermore, we see that the alignment of one sequence is accurate exactly within the construct, but not outside of it. The other alignment is only accurate exactly outside the construct. This suggests that the KanMX construct is inserted in the correct location, but the pTEF promotor side is downstream rather than upstream](../images/sequencingDataConstructBEM1d2.png)
+
+-Attempt to flip the construct and check alignment
+
+Construct flipping procedure:
+- Zoom in on one side of the sequence to be flipped.
+- Select sequence
+- Create a feature touching but not overlapping the sequence to be flipped (optional)
+- Select the entire sequence to be flipped
+- cut the sequence
+- Find back your feature and select after the last base on the side where the construct was/should be
+- press edit -> insert -> bases
+- copy the cut sequence
+- enable reverse complement
+- press insert
+
+![Biological replicates A B and C with primers oLL29, oLL30, OLIC56 and OLIC57. The construct is flipped compared to previously. Aligned sequencing data from top to bottom: strain A oLL29, strain A oLL30, strain B oll29 ... then chaos. The sequencing data from all primers now aligns well, both within and outside the construct.](../images/sequencingDataConstructBEM1_FlippedConstruct.png)
+
 
 
 ## Conclusion
 
-- The growth of yeast on selection plates suggests our transformation has been sucessful as cells show resistance to the used antibiotics. 
-
-- The presence of 2.5kb bands suggests that that our DNA has been inserted into the genome.
-- The location of the insertion is not determined. Requires other primers, outside the transformation product, which have been ordered (15/03/21). 
-
+- The growth of yeast on selection plates from Figure @fig:selectionPlates suggests our transformation has been sucessful as cells show resistance to the used antibiotics. 
+- The presence of 2.5kb bands in Figure @fig:gel_PCR1 suggests that that our DNA has been inserted into the genome.
+- The location of the insertion is not determined. This requires primers outside the transformation product, which have been ordered (15/03/21). 
 - Bands at 2kb and around 200bp are possibly non-specific product of the PCR. By first performing a genome purification and then the PCR we may learn more.
 
-- The restreaked colonies showed no growth. Possibly the number of cells in solution was too low. Repeat experiment with new colonies and streak 40uL volume of cell suspension with glass beads. 
+- The presence of possible 3.1kb bands in Figure @fig:gel_PCR2 suggests that that our DNA has been inserted into the genome, but the negative and postive lengths are difficult to distinguish. Therefore we will use primers inside the PCR product.
 
+- The restreaked colonies showed no growth. Possibly the number of cells in solution was too low.
+- The inside primers OLIC58,59,60 and 61 do not show convincing bands of the expected length
+- primers oLL29 and oLL30 are known to work well and give clear bands, if not of the expected length
+- Sequencing the PCR product of oLIC56 and oLIC57 should give definite confirmation.
+
+- Sequencing data from primers oLL29, oLL30. oLI56 and oLIC57 all show the entire construct is integrated at the expected location in flipped orientation
+
+- Flipping the construct means the inside primers change direction
+- This would cause the lack of expected bands for primers OLIC58 through 61 and oLL29 and oLL30
+- Based on sequencing results, oLL29 goes to upstream of the construct and primer oLL30 goes downstream of the construct. So our expectation of the primer direction was wrong for these primers.
+- OLIC56 - oLL30: expected length of 1371 bp
+- OLIC57 - oLL29: expected length of 1688 bp
+- This corresponds better with observed lengths of bands in Figure @fig:PCR_final (no necessarily perfectly)
+
+- The transformation was sucessful.
