@@ -195,6 +195,7 @@ Colonies taken:
     - Primers OLIC 56 and 57
 
 #### Southern blot
+
 ![Southern blot of PCR product using OLIC 56 and 57. Expected length of construct is 3.1kb. Expected length of BEM1 (negative) is 3.3kb. Colonies 9 12 and 16 show a band slightly larger than 3kb at varying concentrations. Exact length can not be determined. These colonies were noted as medium, large and large respectively.](../images/210318-colonyPCR_yLIC137_bem1dConstruct_annotated.png){#fig:gel_PCR2}
 
 - Primers OLIC 56 and 57 do not allow for proper determination of success as positive and negative band lengths are very similar. 

@@ -36,8 +36,10 @@ colorlinks: true
 ## Methods & Results 
 
 ### Overview methods
-- Transform SATAY plasmid into yTW001
-- Check succes of transformation
+- Transform SATAY plasmid (pBk549) into yTW001
+- Check success of transformation (colonies in -ura plates)
+- pbk549 plasmid 
+![](../Images/pBK549-Map.png)
 
 Protocols: 
     - Yeast Transformation
@@ -45,7 +47,7 @@ Protocols:
 ### Base for selection media
 
 
-- [] Create 20 agar plates (400ml) of CSM - ura + ade
+- [x] Create 20 agar plates (400ml) of CSM - ura + ade
     - Autoclave 300ml MiliQ+Agar
 
 | Amount         | Type         |
@@ -63,6 +65,9 @@ Protocols:
 | 60mL           | MiliQ         |
 | 40 ml          | 20% dextrose  |
 
+### Controls for plates 
+- Checking for positive and negative growth 
+- **Explain this more , with the genotypes of those strains because that is what tell you what is a positive and negative control**
 Check plates with yWKD017 (+), yWKD001(-), yLIC135(-) ?? check for +ade?
 
 ## Transformation with SATAY plasmid
@@ -84,7 +89,7 @@ OD measurement with Nanodrop at 100x dilution
 |-|-|-|-|-|-|
 | OD | 0.001 | -0.002 | -0.004 | 0.073 | 0.056 |
 
-- Protocol: dilute to 5*10^6 cells/ml:
+- Protocol: dilute to 5*10^6 cells/ml (**here what is most used is the OD not the number of cells , so dilute to OD=0.5**):
 - yTW001 strains need to incubate longer.
 - yLIC137_1: 7.3 * 10^7 cells/ml -> dilute 15 times
 - yLIC137_2: 5.6 * 10^7 cells/ml -> dilute 10 times
@@ -96,6 +101,7 @@ OD measurement with Nanodrop at 100x dilution
 
 - Incubate for ~4 hours until 2*10^7 cells/ml (OD of 2)
 - OD measurement with Nanodrop at 10x dilution after 80 minutes:
+
 | Sample | yLIC137_1 | yLIC137_2A |
 |-|-|-|
 | OD | 0.056 | 0.076 |
@@ -107,21 +113,28 @@ OD measurement with Nanodrop at 100x dilution
 
 
 
-- Transfer to plastic tube
-- Centrifuge at 3000g (2500rpm) for 5 minutes
-- Pour off medium, resuspend in sterile 10 ml milliQ 
+- Transformation started
+- Plasmid concentration used for transformation: 
+- Plating: 
+  - plate 200uL and 110 uL (10 ul sample in 100ul milliQ)
+  - incubate for 3 days at 30C
 
-....
-- plate 200uL and 110 uL (10 ul sample in 100ul milliQ)
-- incubate for 3 days at 30C
+## Results
+
+- Not good results , apparent contamination: 
 
 Selection plates of yTW001 show strange colonies. They appear very liquid and are not according to expectation. The plates do not smell like yeast, or bacteria. 10 uL on diluted cells was put under the microscope. This showed yeast cells and some unidentified cells. Transformation well be repeated.
 
+- Pictures of plates 
+
 ## Sanity check
-Plate 8 single colonies from selection plates on both -Ade and -Ura plates. 
-Initially plates different colonies on -Ade (1-8) and -Ura (9-16), but it should come from the same colony -> repeat
-Growth on -Ade should be possible by the rare random recombination of the transposon repairing the ADE2 gene in the plasmid. This should be possible but very unlikely. Therefore we select the colonies which show more than 0 colonies on -Ade, but otherwise as few as possible.
-The growth of the same colony in -Ura is then checked. Presence of the plasmid should provide growth on -ura plates, while a lack of the plasmid should result in no growth. Therefore we look for colonies with very slight growth in -ade and large growth in -ura.
+
+- Plate 8 single colonies from selection plates on both -Ade and -Ura plates. 
+  - Initially I plated different colonies on -Ade (1-8) and -Ura (9-16), but it should come from the same colony -> repeat
+
+Logic behind the sanity check:
+- Growth on -Ade should be possible by the rare random recombination of the transposon repairing the ADE2 gene in the plasmid. This should be possible but very unlikely. Therefore we select the colonies which show more than 0 colonies on -Ade, but otherwise as few as possible.
+- The growth of the same colony in -Ura is then checked. Presence of the plasmid should provide growth on -ura plates, while a lack of the plasmid should result in no growth. Therefore we look for colonies with very slight growth in -ade and large growth in -ura.
 
 ## observations 12/05
 Media was contaminated. Transformation of yTW001 delayed. New YPD+ade and dextrose was made.
@@ -153,17 +166,18 @@ Added after filtering:
 ## 17-05
 - Previous media was contaminated. 
 - New media was made while taking extra care to work sterile. 
-- Previous glucose concentration was under 20% so new 20% dextrose was made. 
+- Previous glucose concentration was under 20% so new 20% dextrose was made. (explain what did you learn here about how to make the 20% dextrose!, namely , the volume you used to compute the sugar percentage has to be the final volume!!!)
 - yTW001A,B,C put to incubate in YPD + ade at 30C
 
 ## 19-05
 - OD of incubated cultures measured at 10:00
 - 100x diluted:
+
 | Sample | OD | Concentration of culture
 |-|-|-|
-| A | 0.049 | 4.9*10^7|
-| B | 0.056 | 5.6*10^7 |
-| C | 0.061 | 6.1*10^7 |
+| A | 0.049 | 4.9*10^7/ml|
+| B | 0.056 | 5.6*10^7/ml |
+| C | 0.061 | 6.1*10^7 /ml|
 
 - Dilute 10x and incubate at 30C
 - 10x diluted yTW001A shows OD of 0.375 --> slight underestimation of cell count
@@ -173,9 +187,15 @@ Added after filtering:
 
 | Sample | OD | Concentration of culture
 |-|-|-|
-| A | 0.067 | 6.7*10^6|
-| B | 0.058 | 5.8*10^6 |
-| C | 0.065 | 6.5*10^6 |
+| A | 0.067 | 6.7*10^6/ml|
+| B | 0.058 | 5.8*10^6 /ml|
+| C | 0.065 | 6.5*10^6/ml |
 
 - Incubate further
 - OD of diluted culture measured at 14:30
+
+
+- **Please add here all details of the transformation** regarding:
+  - plasmid concentration
+  - plating procedure
+  - any abnormality during the process that deserves to have a note for next experiments. 
