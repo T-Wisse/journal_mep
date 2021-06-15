@@ -61,7 +61,7 @@ colorlinks: true
     ​    - [x] Plate 200ul of the inoculum in SD-ADE+ 2% dextrose (expect 40-80 colonies per 200uL)
     ​    - [x] Dilute 1000x and spread 200ul in SD-URA and CSM + ADE
 
-    ![Induction T=0 -Ade plates after incubation](../../../Data/LabData/Images/Plates/SATAY_Plates_on_07-06-21.png)
+    ![Induction T=0 -Ade plates after incubation](../Images/inductionT0_minADE.png)
 
     - Goal: Start induction: Dilute cells to OD of 0.2 in SD-Ura+Ade+2% galactose
     - Diluted yLIC137 5 10x (15 ml in 135ml media)
@@ -134,7 +134,7 @@ colorlinks: true
 | ylic137 4 | | 8.86|
 | ylic137 5 | | 9.64 |
 
-![OD during induction](../../../Data/LabData/Images/Plates/FigureOD_Induction.png)
+![OD during induction](../Images/FigureOD_Induction.png)
 
 - Choose the 4 strains to continue for the reseed that has the least number of ADE+ cells at T=0 and the highest number of ADE+ after induction.
   - Still the background at T=0 can not be clearly determined.
@@ -190,7 +190,7 @@ OD measurement of the reseed
 | yLIC137 1 | 1.73 | 1.99 |
 | yLIC137 2 | 2.33 | 2.05 |
 
-![OD during reseed](../../../Data/LabData/Images/FigureOD_Reseed.png)
+![OD during reseed](../Images/FigureOD_Reseed.png)
 
 - End of reseeding after 90.5 hours
 - [x] Harvest of the cell culture.
@@ -201,7 +201,7 @@ OD measurement of the reseed
 
 
   
-![ADE+ Cells/ml during induction](../../../Data/LabData/Images/FigureADE_plus_cells_incubation.png)
+![ADE+ Cells/ml during induction](../Images/FigureADE_plus_cells_incubation.png)
 
 
 - [x] Plate 200ul with 1000X dilution in SD-Ade , and 200ul with 40000X dilution in SD-ura to estimate the growth of ade+cells compared with the T=0 of reseeding. Expect  that the ade+ cells have grown by a factor of ~1000x. 
@@ -235,7 +235,8 @@ OD measurement of the reseed
 | yLIC137 1 	| 0.079 	| 1.99	| 1250	| 2000 	|  	|  	| 	| 	| 90.5h	|
 ​| yLIC137 2 	|  0.104	| 2.05	| 425	| 4000 	|  	|  	| 	| 	| 90.5h	|
 ​
-​
+​----------------------------------------- BELOW: LEILA
+
 #### Defining the complexity of the library
 
 ​
