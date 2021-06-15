@@ -66,28 +66,32 @@ colorlinks: true
     - Goal: Start induction: Dilute cells to OD of 0.2 in SD-Ura+Ade+2% galactose
     - Diluted yLIC137 5 10x (15 ml in 135ml media)
     - OD measurement: 
+
     | Strain  |  OD 10x dilution  | ReaL OD | Dilution Factor to OD=0.2  | Time of preculture|
+    |-|-|-|-|-|
     | ylic137 5 | 0.539 |  5.39 | 27  | 24h  |
 
     - Diluted all strains 27x times
     - OD measurement: 
+
     | Strain  |  ReaL OD |
+    |-|-|
     | yTW001 1 | 0.077 |
     | yTW001 2 | 0.047 |
     | ylic137 3 | 0.068 |
 
-    - It seems I diluted too much. While I expected to get an OD slightly below 0.2 this is far below 0.2
+    - **It seems I diluted too much**. While I expected to get an OD slightly below 0.2 this is far below 0.2
     - Low cell count at the start of induction may affect library complexity
     - Continue with induction for now. 
     - Start induction at 19:30. Induce for 50h
-    - If I repeat this experiment, measure all ODs both before and after and dilute more carefully!
+    - **If I repeat this experiment, measure all ODs both before and after and dilute more carefully!**
 
 - **03062021** 
 
     - Measure the rate of induction (T=Xh of induction)
-    ​    - [x] Plate 200ul of the inoculum 10x diluted in SD-ADE+ 2% dextrose (expect 40-80 colonies per 200uL)
-    ​    - [x] Dilute 1000x and spread 200ul in SD-URA and CSM + ADE
-        - Check OD
+      - [x] Plate 200ul of the inoculum 10x diluted in SD-ADE+ 2% dextrose (expect 40-80 colonies per 200uL)
+      - [x] Dilute 1000x and spread 200ul in SD-URA and CSM + ADE
+      - [x] Check OD
 
 - [x] Dissolve 4*2.34g of CSM-ade + 4*5.7g of YNB in 200ml MQ and filter sterilize it 
 - [x] Prepare 4 flasks of 3L of SD-ADE media for the reseed of four strains
@@ -97,9 +101,9 @@ colorlinks: true
     - [x] Add 300mL of 20% dextrose after autoclaving. 
 
 - OD measurement afer (T=23) hours
-​
+
 | Strain  |  OD 10x dilution  | ReaL OD |
-|---|---|---|
+|-|-|-|
 | yTW001 1 | | 6.28 | 
 | yTW001 2 | | 7.30 |
 | yTW001 3 | | 5.39 |  
@@ -118,7 +122,7 @@ colorlinks: true
     - After ~2 hours of mixing the mixture remained opaque, clearing upon filtering. This suggests not evrything was dissolved.
 
 - OD measurement afer (T=46.5) hours
-​
+
 | Strain  |  OD 200x dilution  | ReaL OD |
 |---|---|---|
 | yTW001 1 | | 7.60 | 
@@ -147,6 +151,8 @@ colorlinks: true
     3. Make sure to capture the maximum number of right colonies: Image -> Adjust -> Threshold . Make sure the colonies are all red.
     4. Process -> Make binary-> Watershed
     5. Analyse ->  Analyse Particles, select minimum size of 2 pixels   (?)
+
+**- YOU SHOULD PUT THE DILUTION YOU ARE USING IN EACH PLATE SO YOU CAN PROPERLY COMPUTE THE NUMBER OF CELLS IN EACH PLATE**
 
 | plate&strain | t=0 | t=23 | t=46.5 |
 |-|-|-|-|
@@ -178,7 +184,7 @@ colorlinks: true
 OD measurement of the reseed 
 
 | Strain |  t = 88h | t=90.5 |
-|-|-|-|-|
+|-|-|-|
 | yTW001 2 | 3.64 | 3.9 |
 | yTW001 3 | 4.11 | 4.29 |
 | yLIC137 1 | 1.73 | 1.99 |
@@ -203,6 +209,7 @@ OD measurement of the reseed
   - Library to reseed
   - [Rule of thumb for the number of cells under certain OD600](https://research.fhcrc.org/content/dam/stripe/hahn/methods/yeast_genetics/yeast_OD_cells.pdf) 
 ​
+
   | OD  |  approx Number of cells in 1mL| 
   |---|---|
   | 0.1 | 3,000,000  |
@@ -210,14 +217,16 @@ OD measurement of the reseed
   | 0.25  | 7,500,000 |
   | 0.27  | 7,500,000 | 
   | 1| 30,000,000 | 
-​
-​ ​| strain  |  OD at T=0 (reseed)| Volume | Library 
-  |---|---|---|---|
-  | yTW001 2 | 0.064  | 3L | 3000*1,920,000 = 5.76*10^9
-  | yTW001 3 | 0.070  | 3L | 6.3*10^9
-  | yLIC137 1  | 0.079 | 3L | 7.11*10^9
-  | yLIC137 2  | 0.104 | 3L | 9.36*10^9
+
+
+​| strain  | OD at T=0 (reseed)| Volume | Library |
+|---|---|---|---|
+| yTW001 2 | 0.064  | 3L | 3000* 1,920,000 = 5.76*10^9|
+| yTW001 3 | 0.070  | 3L | 6.3*10^9|
+| yLIC137 1  | 0.079 | 3L | 7.11*10^9|
+| yLIC137 2  | 0.104 | 3L | 9.36*10^9|
  
+
 
 | Strain 	| OD START 	| OD STOP 	| ADE+/mL-start<br>induct(backg) 	| ADE+/mL-start<br>Reseed 	| ADE+/ml-stop<br>Reseed 	| URA+/ml-stop<br>Reseed 	| % of ade+/ura+ 	| Total # of cells<br>Harvest 	| Time- Reseeding 	|
 |-	|-	|-	|-	|-	|-	|-	|-	|-	|-	|
@@ -228,27 +237,33 @@ OD measurement of the reseed
 ​
 ​
 #### Defining the complexity of the library
+
 ​
 - The number of ADE+ cells reseeded minus the number of background ADE+ cells is the complexity of the library.
+
 ​
 - To determine the complexity of the library, you should know: 
   - #ADE+ per ml at the start of the reseed, 
   - Volume of reseed.  
   - If you harvest all the culture: 
+
 ​
 For strain 1:
 ​
-OD8 ~8E+7 cells/ml -> 7.47E+11/ 8E+7~10L
+- OD8 ~8E+7 cells/ml -> 7.47E+11/ 8E+7~10L
 ​
 - The  number of URA+ cells per ml at the end of the regrowth is 19200000 -> 7.47E+11/ 19.2E+5 ~ 38L
+
 ​
 - I reseed in a volume of 3L :
 ​
   If so, the complexity of the library is 5E+3 * 3*10E+3= 1.5E+7
 - Complexity = $ADE+|_{T=0(reseed)}$ * Volume of reseed
 ​
+
 #### Number of cycles during the reseed
 ​
+
 - The number of cycles that each ADE+ cells has done during the regrowth of the libraries as follow:
 ​
   - N=ln(#ADE+ per ml STOP reseed/#ADE+ per ml START reseed)/ln(2)
@@ -261,6 +276,7 @@ OD8 ~8E+7 cells/ml -> 7.47E+11/ 8E+7~10L
 ## Results
 ​
 - For the strain ylic135 it did not work, because it is very miserable to culture with others. It grows much more slower , so maybe growing it more and with less volume , for next time. Also ylic135 gives a relatively high background compared with the growth in -URA. 
+
 ​
 - The way of computing the number of colonies in highly dense plates is pretty inaccurate with the best tool to do it which is ImageJ. So I think that is why I get like an order of magnitude lower than the number of colonies expected by Benoit. 
 ​

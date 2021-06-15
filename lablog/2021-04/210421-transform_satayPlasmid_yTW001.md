@@ -179,6 +179,7 @@ Selection plates of yTW001 show strange colonies. They appear very liquid and ar
   - Initially I plated different colonies on -Ade (1-8) and -Ura (9-16), but it should come from the same colony -> repeat this step
 
 Logic behind the sanity check:
+
 - Growth on -Ade should be possible by the rare random recombination of the transposon repairing the ADE2 gene in the plasmid. While possible it should be very unlikely. Therefore we select the colonies which show more than 0 colonies on -Ade, but otherwise as few as possible.
 - The growth of the same colony in -Ura is then checked. Presence of the plasmid should provide growth on -ura plates, while a lack of the plasmid should result in no growth. Therefore we look for colonies with very slight growth in -ade and large growth in -ura.
 
@@ -202,7 +203,8 @@ Added after filtering:
 | 40 ml          | 20% dextrose  |
 
 
-20% dextrose
+- 20% dextrose 
+
 | Amount         | Type          |
 |----------------|---------------|
 | 100 ml         |      H2O      |
