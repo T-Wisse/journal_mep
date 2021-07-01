@@ -222,7 +222,9 @@ colorlinks: true
 | yLIC137 7 -ADE | 39 | 110 | 19 |
 | yLIC137 8 -ADE | 40 | 130 | 22 |
 
+
 | plate&strain | t=0 (1000x) | t=23 (1000x diluted) | t=51 (40000x diluted) |
+|-|-|-|-|
 | yTW001 4 +ADE | 13 | 271 | 37 |
 | yTW001 5 +ADE | 9 | 566 | 22 |
 | yTW001 6 +ADE | 20 | 0 | 30 |
@@ -262,14 +264,16 @@ colorlinks: true
   - Library to reseed
   - [Rule of thumb for the number of cells under certain OD600](https://research.fhcrc.org/content/dam/stripe/hahn/methods/yeast_genetics/yeast_OD_cells.pdf) 
 ​
-  | OD  |  approx Number of cells in 1mL| 
-  |---|---|
-  | 0.1 | 3,000,000  |
-  | 0.18 | 6,000,000  |
-  | 0.25  | 7,500,000 |
-  | 0.27  | 7,500,000 | 
-  | 1| 30,000,000 | 
+
+| OD  |  approx Number of cells in 1mL | 
+|---|---|
+| 0.1 | 3,000,000  |
+| 0.18 | 6,000,000  |
+| 0.25  | 7,500,000 |
+| 0.27  | 7,500,000 | 
+| 1| 30,000,000 | 
 ​
+
 ​ ​| strain  |  OD at T=0 (reseed)| Volume | Library 
   |---|---|---|---|
   | yTW001  | 0.112 | 3L |3000*1.12*3,000,000 = 1.0*10^10|
