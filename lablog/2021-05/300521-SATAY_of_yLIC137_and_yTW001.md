@@ -144,7 +144,8 @@ colorlinks: true
   - Incubate at 30C, 120 rpm
 
 - **08062021**
-- [] Check ADE+ cells during induction. Counting colonies from each plate. 
+
+- [x] Check ADE+ cells during induction. Counting colonies from each plate. 
   - Image J protocol: 
     1. select image of interest: circle tool and edit-> clear outside (clear so that just all text is removed)
     2. Image ->  Type -> 16bits
@@ -219,13 +220,14 @@ OD measurement of the reseed
   | 1| 30,000,000 | 
 
 
-​| strain  | OD at T=0 (reseed)| Volume | Library |
-|---|---|---|---|
-| yTW001 2 | 0.064  | 3L | 3000* 1,920,000 = 5.76*10^9|
-| yTW001 3 | 0.070  | 3L | 6.3*10^9|
-| yLIC137 1  | 0.079 | 3L | 7.11*10^9|
-| yLIC137 2  | 0.104 | 3L | 9.36*10^9|
- 
+
+  ​| strain  | OD at T=0 (reseed) | Volume | Library |
+  |---|---|---|---|
+  | yTW001 2 | 0.064  | 3L | 3000* 1,920,000 = 5.76*10^9|
+  | yTW001 3 | 0.070  | 3L | 6.3*10^9|
+  | yLIC137 1  | 0.079 | 3L | 7.11*10^9|
+  | yLIC137 2  | 0.104 | 3L | 9.36*10^9|
+  
 
 
 | Strain 	| OD START 	| OD STOP 	| ADE+/mL-start<br>induct(backg) 	| ADE+/mL-start<br>Reseed 	| ADE+/ml-stop<br>Reseed 	| URA+/ml-stop<br>Reseed 	| % of ade+/ura+ 	| Total # of cells<br>Harvest 	| Time- Reseeding 	|
@@ -235,7 +237,9 @@ OD measurement of the reseed
 | yLIC137 1 	| 0.079 	| 1.99	| 1250	| 2000 	|  	|  	| 	| 	| 90.5h	|
 ​| yLIC137 2 	|  0.104	| 2.05	| 425	| 4000 	|  	|  	| 	| 	| 90.5h	|
 ​
-​----------------------------------------- BELOW: LEILA
+
+
+​----------------------------------------- BELOW: LEILA---------------------
 
 #### Defining the complexity of the library
 
