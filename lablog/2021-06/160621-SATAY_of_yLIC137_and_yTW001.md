@@ -172,8 +172,9 @@ colorlinks: true
 
 - OD measurement afer (T=51) hours
 ​
+
 | Strain  |  OD 40x dilution  | ReaL OD | Dilution for OD of 0.1 |
-|---|---|---|
+|---|---|---|---|
 | yTW001 4 | 0.197 | 7.88  | 80x |
 | yTW001 5 | 0.202 | 8.08 | 80x |
 | yTW001 6 | 0.258 | 10.32 | 100x |
@@ -181,6 +182,7 @@ colorlinks: true
 | ylic137 7 | 0.270 | 10.8 | 100x |
 | ylic137 8 | 0.278 | 11.12 | 110x |
 
+![ADE+ Cells/ml during induction](../Images/SATAY_160621_figureADE_plus_cells_induction.png)
 
 - Choose 4 strains to continue for the reseed that has the least number of ADE+ cells at T=0 and the highest number of ADE+ after induction.
   - Based on background at T=0 (plates).
@@ -221,18 +223,18 @@ colorlinks: true
 | yLIC137 8 -ADE | 40 | 130 | 22 |
 
 | plate&strain | t=0 (1000x) | t=23 (1000x diluted) | t=51 (40000x diluted) |
-| yTW001 4 +ADE | 13 |  | 37 |
-| yTW001 5 +ADE | 9 |  | 22 |
+| yTW001 4 +ADE | 13 | 271 | 37 |
+| yTW001 5 +ADE | 9 | 566 | 22 |
 | yTW001 6 +ADE | 20 | 0 | 30 |
 | yLIC137 6 +ADE | 21 | 0 | 110 |
-| yLIC137 7 +ADE | 23 |  | 80 |
-| yLIC137 8 +ADE | 7 |  | 32 |
-| yTW001 4 -URA+ADE | 13 |  | 70 |
+| yLIC137 7 +ADE | 23 | 935 | 80 |
+| yLIC137 8 +ADE | 7 | 1057 | 32 |
+| yTW001 4 -URA+ADE | 13 | 1169 | 70 |
 | yTW001 5 -URA+ADE | 14 | 0 | 24 |
 | yTW001 6 -URA+ADE | 5 | 0 | 100 |
 | yLIC137 6 -URA+ADE | 2 | 0 | 100 |
-| yLIC137 7 -URA+ADE | 29 |  | 100 |
-| yLIC137 8 -URA+ADE | 4 | 300 | 100 |
+| yLIC137 7 -URA+ADE | 29 | 1119 | 100 |
+| yLIC137 8 -URA+ADE | 4 | 243 | 100 |
 
 
 - OD measurement of the reseed (T=92h):
@@ -282,3 +284,5 @@ colorlinks: true
 | yTW001 6 | 0.111	|	11.12 | 115	| 374	|  	|  	| 	| 1.0*10^12	| 92h |
 | yLIC137 7 | 0.103	|	9.76 | 195	| 209	|  	|  	| 	| 8.8*10^11	| 92h	|
 ​| yLIC137 8 | 0.098 | 8.92 | 200 | 242 |   |   | 	 | 8.0*10^11 | 92h |
+
+
