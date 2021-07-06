@@ -28,7 +28,7 @@ colorlinks: true
 # Title : PLANNING 160621-SATAY_of_yLIC137_and_yTW001
 ​
 ## Date
-16062021 -
+16/06/2021 - 05/07/2021
 ​
 ## Objective
 ​
@@ -73,20 +73,20 @@ colorlinks: true
 
 - **22062021**
   - [x] Preculture in SD-URA+Ade+0.2%glucose +2% raffinose
-      - Scrape colonies from 6 backgrounds that passed the sanity check
-          - Colonies indicated by a large dot on the -Ade plates. Repeating all yTW001 colonies and yLIC137 4
-      - 20ml media in flask
-      - Incubate at 30C, 180 RPM
-      - Time start of preculture: 11:00
+    - Scrape colonies from 6 backgrounds that passed the sanity check
+        - Colonies indicated by a large dot on the -Ade plates. Repeating all yTW001 colonies and yLIC137 4
+    - 20ml media in flask
+    - Incubate at 30C, 180 RPM
+    - Time start of preculture: 11:00
 
-    | Name | Colony |
-    |-|-|
-    | yTW001 4 | yTW001 C8 |
-    | yTW001 5 | yTW001 C7 |
-    | yTW001 6 | yTW001 C2 |
-    | ylic137 6 | yLIC137_2 C8 |
-    | ylic137 7 | yLIC137_1 C2 |
-    | ylic137 8 | yLIC137_1 C4 |
+  | Name | Colony |
+  |-|-|
+  | yTW001 4 | yTW001 C8 |
+  | yTW001 5 | yTW001 C7 |
+  | yTW001 6 | yTW001 C2 |
+  | ylic137 6 | yLIC137_2 C8 |
+  | ylic137 7 | yLIC137_1 C2 |
+  | ylic137 8 | yLIC137_1 C4 |
 
 - **23062021**
     - End of preculture, start of induction
@@ -95,52 +95,53 @@ colorlinks: true
     - Time end of preculture: 09:00
     - OD measurement end of preculture:
 
-    | Strain  |  OD 20x dilution  | ReaL OD | Approximate dilution Factor to OD=0.2  |
-    |-|-|-|-|-|
-    | yTW001 4 | 0.115 | 2.30 | 10x |
-    | yTW001 5 | 0.116 | 2.32 | 10x |
-    | yTW001 6 | 0.204 | 4.08 | 20x |
-    | ylic137 6 | 0.208 | 4.16 | 20x |
-    | ylic137 7 | 0.271 | 5.42 | 25x |
-    | ylic137 8 | 0.366 | 7.32 | 30x |
+  | Strain  |  OD 20x dilution  | ReaL OD | Approximate dilution Factor to OD=0.2  |
+  |-|-|-|-|
+  | yTW001 4 | 0.115 | 2.30 | 10x |
+  | yTW001 5 | 0.116 | 2.32 | 10x |
+  | yTW001 6 | 0.204 | 4.08 | 20x |
+  | ylic137 6 | 0.208 | 4.16 | 20x |
+  | ylic137 7 | 0.271 | 5.42 | 25x |
+  | ylic137 8 | 0.366 | 7.32 | 30x |
 
     - Dilute cells to OD of 0.2 in SD-Ura+Ade+2% galactose for a total volume of 150ml
     - Induce for 50h-52h: 30C, 180rpm (START AT 11:00)
 
     - OD measurement start of induction: 
 
-    | Strain  | OD |
-    |-|-|
-    | yTW001 4 | 0.285 |
-    | yTW001 5 | 0.138 |
-    | yTW001 6 | 0.236 |
-    | ylic137 6 | 0.223 |
-    | ylic137 7 | 0.224 |
-    | ylic137 8 | 0.228 |
+  | Strain  | OD |
+  |-|-|
+  | yTW001 4 | 0.285 |
+  | yTW001 5 | 0.138 |
+  | yTW001 6 | 0.236 |
+  | ylic137 6 | 0.223 |
+  | ylic137 7 | 0.224 |
+  | ylic137 8 | 0.228 |
 
     
     - Measure the background (T=0 of induction)
       - [x] Plate 200ul of the inoculum in SD-ADE+ 2% dextrose (expect 40-80 colonies per 200uL)
       - [x] Dilute 1000x and spread 200ul in SD-URA and CSM + ADE
-
     
 - **24062021** 
 
-- Measure the rate of induction at T=23h of induction (10:00)
+  - Measure the rate of induction at T=23h of induction (10:00)
+
   - [x] Plate 200ul of the inoculum 10x diluted in SD-ADE+ 2% dextrose (expect 40-80 colonies per 200uL)
   - [x] Dilute 1000x and spread 200ul in SD-URA and CSM + ADE
   - [x] Check OD
 
-- OD measurement afer T=23 hours
-​
-| Strain  |  OD 20x dilution  | ReaL OD |
-|---|---|---|
-| yTW001 4 | 0.350 | 7.00 |
-| yTW001 5 | 0.369 | 7.38 |
-| yTW001 6 | 0.415 | 8.30 |
-| ylic137 6 | 0.520 | 10.4 |
-| ylic137 7 | 0.490 | 9.80 |
-| ylic137 8 | 0.506 | 10.1 |
+  -  OD measurement afer T=23 hours
+
+  | Strain |  OD 20x dilution  | ReaL OD |
+  |---|---|---|
+  | yTW001 4 | 0.350 | 7.00 |
+  | yTW001 5 | 0.369 | 7.38 |
+  | yTW001 6 | 0.415 | 8.30 |
+  | ylic137 6 | 0.520 | 10.4 |
+  | ylic137 7 | 0.490 | 9.80 |
+  | ylic137 8 | 0.506 | 10.1 |
+
 
 - [x] 4 times: Dissolve 2.34g of CSM-ade + 20.1g of YNB in 400ml MQ and filter sterilize it 
 - [x] Prepare 4 flasks of 3L of SD-ADE media for the reseed of four strains
@@ -154,10 +155,10 @@ colorlinks: true
 
 
 - Measure the rate of induction (T=51h of induction) (AT 14:00)
-​    - [x] Plate 200ul of the inoculum 200x diluted in SD-ADE+ 2% dextrose (expect 40-80 colonies per 200uL)
-​    - [x] Dilute 40000x and spread 200ul in SD-URA and CSM + ADE
-    - [x] Check OD 
-    - [x] Check number of colonies in T=0 plates
+  - [x] Plate 200ul of the inoculum 200x diluted in SD-ADE+ 2% dextrose (expect 40-80 colonies per 200uL)
+  - [x] Dilute 40000x and spread 200ul in SD-URA and CSM + ADE
+  - [x] Check OD 
+  - [x] Check number of colonies in T=0 plates
 
 - Colony count at of T=0 plates at T=51 on -ADE
 
@@ -205,7 +206,7 @@ colorlinks: true
 
 - Reseed stopped at 13:00 (92h)
 
-- [] Check ADE+ cells during induction. Counting colonies from each plate. 
+- [x] Check ADE+ cells during induction. Counting colonies from each plate. 
   - Image J protocol: 
     1. select image of interest: circle tool and edit-> clear outside (clear so that just all text is removed)
     2. Image ->  Type -> 16bits
@@ -250,7 +251,7 @@ colorlinks: true
 
 
 
-- [x] Plate 200ul with 1000X dilution in SD-Ade , and 200ul with 40000X dilution in SD-ura to estimate the growth of ade+cells compared with the T=0 of reseeding. Expect  that the ade+ cells have grown by a factor of ~1000x. 
+- [x] Plate 200ul with 1000X dilution in SD-Ade , and 200ul with 40000X dilution in SD-ura to estimate the growth of ade+cells compared with the T=0 of reseeding. Expect that the ade+ cells have grown by a factor of ~1000x. 
 
 - End of reseeding after 92 hours (END AT 12:00)
 - [x] Harvest of the cell culture.
@@ -259,7 +260,23 @@ colorlinks: true
   - Centrifuge 14 min at 3000rpm
   - Store pellet at -80C
 
-  
+  - colony count end reseed
+
+| strain | SC-ADE (x1000)| SC-URA+ADe (x40000) | CSM+ADE (x40000) |
+|-|-|-|-|
+| yTW001 4 | 1254 | 41 | 30 |
+| yTW001 6 | 1679 | 58 | 44 |
+| yLIC137 7 | 643 | 46 | 50 |
+| yLIC137 8 | 686 | 32 | 66 |
+
+- cells/ml end reseed
+
+| strain | SC-ADE | SC-URA+ADe | CSM+ADE |
+|-|-|-|-|
+| yTW001 4 | 6270000 | 6000000 | 8200000 |
+| yTW001 6 | 8395000 | 8800000 | 11600000 |
+| yLIC137 7 | 3215000 | 10000000 | 9200000 |
+| yLIC137 8 | 3430000 | 13200000 | 6400000 |
 
   - Library to reseed
   - [Rule of thumb for the number of cells under certain OD600](https://research.fhcrc.org/content/dam/stripe/hahn/methods/yeast_genetics/yeast_OD_cells.pdf) 
@@ -274,19 +291,38 @@ colorlinks: true
 | 1| 30,000,000 | 
 ​
 
-​ ​| strain  |  OD at T=0 (reseed)| Volume | Library 
-  |---|---|---|---|
-  | yTW001  | 0.112 | 3L |3000*1.12*3,000,000 = 1.0*10^10|
-  | yTW001  | 0.111 | 3L |3000*1.11*3,000,000 = 1.0*10^10|
-  | yLIC137   | 0.103 | 3L |3000*1.03*3,000,000 = 9.3*10^9| 
-  | yLIC137   | 0.098 | 3L |3000*0.98*3,000,000 = 8.8*10^9|
+​| strain  |  OD at T=0 (reseed)| Volume | Library 
+|---|---|---|---|
+| yTW001  | 0.112 | 3L |3000\*1.12\*3,000,000 = 1.0*10^10|
+| yTW001  | 0.111 | 3L |3000\*1.11\*3,000,000 = 1.0*10^10|
+| yLIC137   | 0.103 | 3L |3000\*1.03\*3,000,000 = 9.3*10^9| 
+| yLIC137   | 0.098 | 3L |3000\*0.98\*3,000,000 = 8.8*10^9|
+
+
+
+| Strain 	| OD START 	| OD STOP 	| ADE+/mL-start<br>induct(backg) 	| ADE+/mL-start<br>Reseed 	| ADE+/ml-stop<br>Reseed 	| URA+/ml-stop<br>Reseed 	| % of ade+/ura+ 	| % of ade+/cell (CSM) | Total # of cells<br>Harvest 	| Time- Reseeding	|
+|-|-|-|-|-|-|-|-|-|-|-|
+| yTW001 4 | 0.112	|	7.68 | 90	| 215	| 6.3\*10^6 | 6.0\*10^6  	| 100	| 76 | 6.9*10^11	| 92h	|
+| yTW001 6 | 0.111	|	11.12 | 115	| 374	| 8.4\*10^6 | 8.8\*10^6  	| 95	| 72 | 1.0*10^12	| 92h |
+| yLIC137 7 | 0.103	|	9.76 | 195	| 209	| 3.2\*10^6 | 1.0*\*10^7  	| 32	| 35  | 8.8*10^11	| 92h	|​
+| yLIC137 8 | 0.098 | 8.92 | 200 | 242 | 3.4\*10^6 | 1.3\*10^7   |	26 | 54 | 8.0*10^11 | 92h |
+
+
+### Defining the complexity of the library
+- The number of ADE+ cells reseeded minus the number of background ADE+ cells is the complexity of the library.
+- To determine the complexity of the library, you should know:
+  - \#ADE+ per ml at the start of the reseed
+  - Volume of reseed. (3L)
+- Complexity = $ADE+|_{T=0(reseed)}$ * Volume of reseed
  
+- C_yTW001 4: 215 \* 3\*10^3= 6.5\*10^5
+- C_yTW001 6: 374 \* 3\*10^3= 1.1\*10^6
+- C_yLIC137 7: 209 \* 3\*10^3= 6.3\*10^5
+- C_yLIC137 8: 242 \* 3\*10^3= 7.3\*10^5
 
-| Strain 	| OD START 	| OD STOP 	| ADE+/mL-start<br>induct(backg) 	| ADE+/mL-start<br>Reseed 	| ADE+/ml-stop<br>Reseed 	| URA+/ml-stop<br>Reseed 	| % of ade+/ura+ 	| Total # of cells<br>Harvest 	| Time- Reseeding 	|
-|-	|-	|-	|-	|-	|-	|-	|-	|-	|-	|
-| yTW001 4 | 0.112	|	7.68 | 90	| 215	|  	|  	| 	| 6.9*10^11	| 92h	|
-| yTW001 6 | 0.111	|	11.12 | 115	| 374	|  	|  	| 	| 1.0*10^12	| 92h |
-| yLIC137 7 | 0.103	|	9.76 | 195	| 209	|  	|  	| 	| 8.8*10^11	| 92h	|
-​| yLIC137 8 | 0.098 | 8.92 | 200 | 242 |   |   | 	 | 8.0*10^11 | 92h |
-
-
+### Cycles during the reseed
+- N=ln(#ADE+ per ml STOP reseed/#ADE+ per ml START reseed)/ln(2)
+- N_yTW001 4 = ln(6.3\*10^6/215)/ln(2) = 14.8
+- N_yTW001 6 = ln(8.4\*10^6/374)/ln(2) = 14.5
+- N_yLIC137 7 = ln(3.2\*10^6/209)/ln(2) = 13.9
+- N_yLIC137 8 = ln(3.4\*10^6/242)/ln(2) = 13.8
