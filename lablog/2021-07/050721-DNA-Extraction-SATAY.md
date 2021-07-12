@@ -28,7 +28,7 @@ colorlinks: true
 # Title : 05-07-21: DNA extraction of SATAY pellet
 ​
 ## Date
-05/07/21 -
+05/07/21 - 09/07/21
 ​
 ## Objective
 ​
@@ -57,6 +57,7 @@ colorlinks: true
 
 
  **05072021**
+
 - yTW001 4: 697g of pellet
 - Aliquot into 2 eppis
 - step 3: vortexed at 20C instead of 4C
@@ -67,7 +68,8 @@ colorlinks: true
 - step 11: 25uL of water used per aliquot. Again switching between heating and vortexing. Ideally here we should mix by pipetting
 - gel: 10uL loaded, 120V for 30min
 
-Measuring DNA concentration on gel with imagej:
+Measuring DNA concentration on gel with image j:
+
 - Using [Gels Submenu](https://imagej.nih.gov/ij/docs/menus/analyze.html#gels)
 - select entire lane with rectangle selection tool
 - Analyze>Gels>Select First Lane
@@ -79,10 +81,35 @@ Measuring DNA concentration on gel with imagej:
 - Analyze>Gels>Label Peaks
 
 - The area gives the size of the peak. Compare size peak of interest to size of peak corresponding to ladder peak with known concentration.
+- Final DNA concentration: 135 ng/ul, in ~110ul
 
+![Gel of yTW001 4 DNA (sample on the 2nd lane from the left)](../Images/210705_yTW001_4_SATAY_gDNA_inverted_annotated.png)
 
 **07072021**
-- yLIC137 7: 3* ~670g of pellet
+
+- yLIC137 7: 3* ~670mg of pellet
 - aliquot each into 4 eppis
 - step 11: 25uL of water used per aliquot. Again switching between heating and vortexing. Mixing by pipetting did not seem to work.
 - Gel: 10uL loaded (ran by Reza!)
+- Final DNA concentration: 81 ng/ul (~350 ul)
+
+![Gel of yLIC137 7 DNA (sample on the 2nd lane from the right)](../Images/210707_yLIC137_7_SATAY_gDNA_annotated.png)
+
+**08072021**
+
+- yLIC137 8: 3* ~627mg of pellet
+- aliquot each into 4 eppis
+- step 11: 25uL of water used per aliquot. Again switching between heating and vortexing. Mixing by pipetting did not work.
+- Final DNA concentration: 127 ng/ul, (~350ul)
+
+
+**09072021**
+
+- yTW001 4: 2\*666mg of pellet
+- yTW001 6: 2\*668mg of pellet
+- aliquot each into 4 eppis
+- Final DNA concentrations
+- yTW001 4 230uL of 134 ng/ul
+- yTW001 6 230uL of 128 ng/ul
+
+![Gel of yTW001 4 (Lane 2) - 2, yTW001 6 (lane 3, 5) and yLIC137 8 (Lane 4) DNA](../Images/210709_SATAY_gDNA_inverted_annotated.png)
